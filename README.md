@@ -42,9 +42,10 @@ To set up the project, follow these steps:
 
 4. **Create a `.env` file in the root directory and add your database configuration and other environment variables**:
     ```env
-    DATABASE_URI=your_database_uri
-    FLASK_APP=app.py
-    FLASK_ENV=development
+    'host': 'localhost',
+    'user': 'root',
+    'password': 'password',
+    'database': 'project'
     ```
 
 ## Running the App
