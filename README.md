@@ -3,10 +3,10 @@
 ### Create a Flask API
 
 #### Perform CRUD Operation
-1. **Create**: `POST /api/resource`
-2. **Read**: `GET /api/resource` and `GET /api/resource/:id`
-3. **Update**: `PUT /api/resource/:id`
-4. **Delete**: `DELETE /api/resource/:id`
+1. **Create**: `POST /data`
+2. **Read**: `GET /data` and `GET /data/<int:user_id>`
+3. **Update**: `PUT /data/<int:user_id>`
+4. **Delete**: `DELETE /data/<int:user_id>`
 
 ## Project Overview
 
